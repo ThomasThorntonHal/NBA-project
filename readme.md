@@ -34,3 +34,29 @@ Notebooks that are 4 digits long are `results` notebooks.
 1. _notebooks_ – the main Jupyter notebooks are broken down in to `analysis`, `output`, `prep` and `results`. `prep` is the first set of notebooks which prepares the raw data. `analysis` produces new datasets with new data that I have calculated which will be used in results. `results` contains notebooks that produce our results and graphs.
 2. _data_ – the data files to be used; we will separate data into `raw` and `processed` subfolders.
 3. _graphs_ – produced graphs and visualisations will be saved here.
+
+```
+├───.ipynb_checkpoints
+├───data
+│   ├───processed
+│   └───raw
+├───graphs
+│   ├───.ipynb_checkpoints
+│   └───prep
+└───notebooks
+    ├───.ipynb_checkpoints
+    ├───analysis
+    │   └───.ipynb_checkpoints
+    ├───prep
+    │   └───.ipynb_checkpoints
+    └───results
+        ├───RQ1
+        │   └───.ipynb_checkpoints
+        ├───RQ2
+        │   ├───.ipynb_checkpoints
+        │   └───src
+        ├───RQ3
+        │   └───.ipynb_checkpoints
+        └───RQ4
+            └───.ipynb_checkpoints
+ ```
